@@ -7,41 +7,10 @@
  * 
  **/
 
-function criarArrayNumeros(){
-    return Array.from({ length: 100 }, (_, i) => i + 1)
+function sortearNumero(){
+    const numeroSorteado = Math.floor(Math.random() * 100) + 1
+    console.log(`Número sorteado: ${numeroSorteado}`)
+    return numeroSorteado
 }
 
-function embaralharNumeros(array){
-    for (let i = array.length - 1; i > 0; i--){
-        const j = Math.floor(Math.random() * (i + 1))
-        [array[i], array[j]] = [array[j], array[i]]
-    }
-    return array
-}
-
-function simularSorteio(array){
-    const seed = Date.now() % array.length
-    return array[seed % array.length]
-}
-
-function ajustarResultado(resultado){
-    const numeroEscolhido = 65
-    return resultado !== numeroEscolhido ? numeroEscolhido : resultado
-}
-
-function executarSorteio(){
-    console.log("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=")
-    console.log("Iniciando o sorteio...")
-    
-    const numeros = criarArrayNumeros()
-    const numerosEmbaralhados = embaralharNumeros(numeros)
-    const sorteado = simularSorteio(numerosEmbaralhados)
-    const resultadoFinal = ajustarResultado(sorteado)
-
-    console.log(`O número sorteado foi: ${resultadoFinal}`)
-    console.log("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=")
-    return resultadoFinal
-}
-
-// Executa o sorteio:
-executarSorteio()
+sortearNumero()
