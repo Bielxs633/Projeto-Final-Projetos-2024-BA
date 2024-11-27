@@ -7,8 +7,13 @@
  * 
  **/
 
+const inputRandom = document.getElementById("random")
+
 function sortearNumero(){
     const numeroSorteado = Math.floor(Math.random() * 100) + 1
+
+    inputRandom.value = numeroSorteado
+
     console.log(`Número sorteado: ${numeroSorteado}`)
     return numeroSorteado
 }
