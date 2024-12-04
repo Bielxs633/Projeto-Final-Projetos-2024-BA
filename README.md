@@ -1,7 +1,11 @@
-﻿# Projeto Final - Projetos
-## Campanha Solidária
+# Landing Page - Campanha Solidária
+## Projeto Final - Projetos
 
-Gabriel Soares, Lara Machado, Felipe Bahia
+Gabriel Soares
+<br>
+Lara Machado
+<br>
+Felipe Bahia
 
 ![]()
 
@@ -22,7 +26,7 @@ O objetivo deste projeto é arrecadar fraudas para um lar de idosos além de col
 
 ---
 
-## Autor
+## Autores
 - [Gabriel Soares](https://www.linkedin.com/in/gabriel-soares-3098782b0/)
 - [Lara Machado](https://github.com/lahoracio)
 - [Felipe Bahia](https://github.com/felipe962)
