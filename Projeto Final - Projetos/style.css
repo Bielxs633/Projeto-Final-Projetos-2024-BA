@@ -1,0 +1,127 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1;
+    background-color: #004d26;
+    color: white;
+  }
+  
+  /* Estilo do menu fixo */
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #00361a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    z-index: 1000;
+  }
+  
+  header .logo img {
+    width: 50px;
+    cursor: pointer;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  header nav ul li a:hover {
+    color: #00b050;
+  }
+  
+  .menu {
+    justify-content: space-between;
+  }
+
+  /* Banner principal */
+  .banner {
+    text-align: center;
+    padding: 10px 50px;
+    margin-top: 70px;
+  }
+  
+  .banner h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .banner p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    max-width: 500px;
+  }
+
+  .banner a {
+    font-family: monospace;
+  }
+
+  .banner-content {
+    max-width: 60%;
+    text-align: left;
+    background-color: aqua;
+  }
+  
+  .btn-doar {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #00b050;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-doar:hover {
+    background-color: #008040;
+  }
+  
+  /* Cartões de informação */
+  .info-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: #40773D;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: start;
+    width: 200px;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .imagem img {
+    width: 300px;
+    border-radius: 10px;
+    background-color: blue;
+  }
+  
+  .imagem {
+    max-width: 100%;
+    text-align: end;
+    float: right;
+  }
+  
