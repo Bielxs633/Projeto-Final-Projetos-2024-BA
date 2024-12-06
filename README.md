@@ -7,7 +7,8 @@ Lara Machado
 <br>
 Felipe Bahia
 
-![]()
+![image](https://github.com/user-attachments/assets/79e63344-1aa1-4ffb-87e0-721c1fc3f266)
+
 
 ---
 
